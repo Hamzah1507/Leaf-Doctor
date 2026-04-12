@@ -1,0 +1,229 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+    height: 56px;
+    background: white;
+    border-bottom: 0.5px solid #ebebeb;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.topbar-left {}
+
+.topbar-welcome {
+    font-size: 13px;
+    color: #999999;
+}
+
+.topbar-welcome span {
+    color: #1a1a2e;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.topbar-right {
+    position: relative;
+}
+
+.topbar-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: background 0.15s ease;
+}
+
+.topbar-profile:hover {
+    background: #f5f5f5;
+}
+
+.topbar-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #00904a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+}
+
+.topbar-profile-info {}
+
+.topbar-profile-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #1a1a2e;
+    text-transform: capitalize;
+}
+
+.topbar-profile-role {
+    font-size: 10px;
+    color: #999999;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.topbar-arrow {
+    font-size: 10px;
+    color: #999999;
+}
+
+.topbar-dropdown {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    width: 260px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border: 0.5px solid #ebebeb;
+    overflow: hidden;
+    z-index: 200;
+}
+
+.topbar-dropdown-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    background: #f8f9fb;
+}
+
+.topbar-dropdown-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00904a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+}
+
+.topbar-dropdown-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a2e;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.topbar-dropdown-email {
+    font-size: 11px;
+    color: #999999;
+    margin-bottom: 4px;
+}
+
+.topbar-dropdown-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 600;
+    padding: 2px 8px;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.topbar-dropdown-divider {
+    height: 0.5px;
+    background: #f0f0f0;
+}
+
+.topbar-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 16px;
+    font-size: 12px;
+    color: #333333;
+    cursor: pointer;
+    transition: background 0.1s ease;
+}
+
+.topbar-dropdown-item:hover {
+    background: #f8f9fb;
+}
+
+.topbar-dropdown-item.logout {
+    color: #c62828;
+}
+
+.topbar-dropdown-item.logout:hover {
+    background: #ffebee;
+}
+
+.topbar-reset-form {
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #fafafa;
+}
+
+.topbar-reset-input {
+    width: 100%;
+    padding: 9px 12px;
+    border: 0.5px solid #e0e0e0;
+    border-radius: 7px;
+    font-size: 12px;
+    outline: none;
+    color: #333;
+    background: white;
+    transition: border-color 0.2s ease;
+}
+
+.topbar-reset-input:focus {
+    border-color: #00904a;
+}
+
+.topbar-reset-error {
+    font-size: 11px;
+    color: #c62828;
+    background: #ffebee;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.topbar-reset-success {
+    font-size: 11px;
+    color: #2e7d32;
+    background: #e8f5e9;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.topbar-reset-btn {
+    background-color: #00904a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.15s ease;
+}
+
+.topbar-reset-btn:hover {
+    background-color: #007a3e;
+}
+
+.topbar-reset-btn:disabled {
+    background-color: #a5d6b7;
+    cursor: not-allowed;
+}
