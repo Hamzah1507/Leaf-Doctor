@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "693272202008",
+    "project_id": "leafdoctor-1f806",
+    "storage_bucket": "leafdoctor-1f806.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693272202008:android:022789fca6d1df61d1ec6d",
+        "android_client_info": {
+          "package_name": "com.leafdoctor.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsbtrnzJhUpVnfitKpSllHOWIOtAzO9jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
